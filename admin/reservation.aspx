@@ -96,15 +96,7 @@
                                                 <asp:ListItem Value="Triple">Ba</asp:ListItem>
                                             </asp:DropDownList>
 
-                              </div>							  
-							  <div class="form-group">
-                                            <label>Meal Plan</label>
-                                            <asp:DropDownList ID="ddl_an" runat="server">
-                                                <asp:ListItem Value="khong">Không</asp:ListItem>
-                                                <asp:ListItem Value="AS">Ăn Sáng</asp:ListItem>
-                                                <asp:ListItem Value="Buffer">Buffer</asp:ListItem>
-                                            </asp:DropDownList>
-                              </div>
+                              </div>							  						  
 							  <div class="form-group">
                                             <label>Check-In</label>
                                             <asp:TextBox ID="txt_dayin" runat="server" TextMode="Date"></asp:TextBox>                                                                          

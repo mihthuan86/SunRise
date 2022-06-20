@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="SunRise.admin.home" %>
+﻿`<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="SunRise.admin.home" %>
 
 <!DOCTYPE html>
 
@@ -118,10 +118,7 @@
                                     <thead>
                                         <tr>
                                             <th>ID</th>
-                                            <th>Tên</th>
-                                            <th>SĐT</th>
-                                            <th>CMND/CCCD</th>
-											<th>Email</th>											
+                                            <th>Tên</th>                                            										
 											<th>Phòng</th>
 											<th>Ngày Đến</th>
 											<th>Ngày Trả</th>											
@@ -138,10 +135,7 @@
                                             
                                             s="<tr>"+
 												"<th>"+tb_phongmoi.Rows[i]["ID_Dat"]+"</th>"+
-												"<th>"+tb_phongmoi.Rows[i]["Ho"]+" "+tb_phongmoi.Rows[i]["Ten"]+"</th>"+
-												"<th>"+tb_phongmoi.Rows[i]["Sdt"]+"</th>"+
-												"<th>"+tb_phongmoi.Rows[i]["DinhDanh"]+"</th>"+
-												"<th>"+tb_phongmoi.Rows[i]["Email"]+"</th>"+
+												"<th>"+tb_phongmoi.Rows[i]["Ho"]+" "+tb_phongmoi.Rows[i]["Ten"]+"</th>"+												
 												"<th>"+tb_phongmoi.Rows[i]["ID_LoaiP"]+"</th>"+
 												"<th>"+String.Format("{0:dd/MM/yyyy}",tb_phongmoi.Rows[i]["NgayDen"])+"</th>"+
 												"<th>"+String.Format("{0:dd/MM/yyyy}",tb_phongmoi.Rows[i]["NgayTra"])+"</th>"+
@@ -179,9 +173,6 @@
 										<%
                                             string t;
                                             for(int i = 0; i < tb_phongxl.Rows.Count; i++) {
-
-
-
                                                 t ="<div class='col-md-3 col-sm-12 col-xs-12'>"+
                                                        "<div class='panel panel-primary text-center no-boder bg-color-blue'>"+
                                             "<div class='panel-body'>"+

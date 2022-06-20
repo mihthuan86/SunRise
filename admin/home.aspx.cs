@@ -26,7 +26,7 @@ namespace SunRise.admin
                 user = Session["user"].ToString();
                 data = new Data();              
                 tb_phongmoi = data.DataGV("select * from DatPhong where TrangThai='CXL'"); //chưa xử lí
-                tb_phongxl = data.DataGV("select * from DatPhong where TrangThai='CTT'"); //Chờ thanh toán
+                tb_phongxl = data.DataGV("select * from DatPhong where TrangThai='DXL'"); //đã thanh toán
             }
         }
         
